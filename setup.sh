@@ -21,7 +21,7 @@ yellow() { echo -e "\\033[33;1m${*}\\033[0m"; }
 green() { echo -e "\\033[32;1m${*}\\033[0m"; }
 red() { echo -e "\\033[31;1m${*}\\033[0m"; }
 # domain random
-CDN="https://raw.githubusercontent.com/givpn/AutoScriptXray/master/ssh"
+CDN="https://raw.githubusercontent.com/deuxly/autoinstallerssh/master/ssh"
 cd /root
 #System version number
 if [ "${EUID}" -ne 0 ]; then
@@ -198,7 +198,7 @@ if [ ! -f "/etc/log-create-shadowsocks.log" ]; then
 echo "Log Shadowsocks Account " > /etc/log-create-shadowsocks.log
 fi
 history -c
-serverV=$( curl -sS https://raw.githubusercontent.com/givpn/AutoScriptXray/master/menu/versi  )
+serverV=$( curl -sS https://raw.githubusercontent.com/deuxly/autoinstallerssh/master/menu/versi  )
 echo $serverV > /opt/.ver
 aureb=$(cat /home/re_otm)
 b=11
@@ -246,7 +246,7 @@ echo "   - Trojan gRPC              : 443" | tee -a log-install.txt
 echo "   - Shadowsocks gRPC         : 443" | tee -a log-install.txt
 echo ""
 echo "=============================Contact==============================" | tee -a log-install.txt
-echo "---------------------------t.me/givpn-----------------------------" | tee -a log-install.txt
+echo "----------------------teknoit.my.id/contact-----------------------" | tee -a log-install.txt
 echo "==================================================================" | tee -a log-install.txt
 echo -e ""
 echo ""
