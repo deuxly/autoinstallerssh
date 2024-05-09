@@ -121,7 +121,7 @@ clear
     echo -e "$BGreen 1. Use Domain Random / Gunakan Domain Random $NC"
     echo -e "$BGreen 2. Choose Your Own Domain / Gunakan Domain Sendiri $NC"
     echo -e "$BYellow----------------------------------------------------------$NC"
-    read -rp " Pilih domain yang akan kamu pakai : " dns
+    read -rp " Pilih domain yang akan kamu so gunakan : " dns
 	if test $dns -eq 1; then
     clear
     apt install jq curl -y
@@ -151,15 +151,15 @@ echo -e "$BGreen      Install SSH Websocket           $NC"
 echo -e "\e[33m-----------------------------------\033[0m"
 sleep 0.5
 clear
-wget https://raw.githubusercontent.com/givpn/AutoScriptXray/master/ssh/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
+wget https://raw.githubusercontent.com/deuxly/autoinstallerssh/master/ssh/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
 #Instal Xray
 echo -e "\e[33m-----------------------------------\033[0m"
 echo -e "$BGreen          Install XRAY              $NC"
 echo -e "\e[33m-----------------------------------\033[0m"
 sleep 0.5
 clear
-wget https://raw.githubusercontent.com/givpn/AutoScriptXray/master/xray/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
-wget https://raw.githubusercontent.com/givpn/AutoScriptXray/master/sshws/insshws.sh && chmod +x insshws.sh && ./insshws.sh
+wget https://raw.githubusercontent.com/deuxly/autoinstallerssh/master/xray/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
+wget https://raw.githubusercontent.com/deuxly/autoinstallerssh/master/sshws/insshws.sh && chmod +x insshws.sh && ./insshws.sh
 clear
 cat> /root/.profile << END
 # ~/.profile: executed by Bourne-compatible login shells.
