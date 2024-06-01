@@ -104,7 +104,8 @@ apt update && apt install wget -y && wget -qO- -O rootvps.sh https://raw.githubu
 - GUNAKAN SECARA BIJAK
 - NONTON UNYIL DOSA TANGGUNG SENDIRI YA
 # PESAN AKHIR
-- Baca artikel lain di https://teknoit.my.id
+- Baca artikel lain di
+- https://sekode.eu.org
 
 
 <p align="center">
